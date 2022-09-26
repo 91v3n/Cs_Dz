@@ -5,4 +5,4 @@ int A = Convert.ToInt32(Console.ReadLine());
 int B = Convert.ToInt32(Console.ReadLine());
 int F = A;
 for (int i = 1; i < B; i++) F *= A;
-Console.WriteLine (F);
+Console.WriteLine ($"{A} to the power of {B} is equal to {F}");

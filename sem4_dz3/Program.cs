@@ -7,3 +7,7 @@ for (int i = 0; i < M.Length; i++)
     M[i] = X.Next(100);
     Console.Write ($"{M[i]} ");
 }
+
+// Вариант с ручным заполнением
+// for (int i = 0; i < M.Length; i++) M[i] = Convert.ToInt32(Console.ReadLine());
+// for (int i = 0; i < M.Length; i++) Console.Write ($"{M[i]} ");
